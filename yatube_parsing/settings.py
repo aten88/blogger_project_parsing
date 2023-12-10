@@ -108,3 +108,6 @@ FEEDS = {
         'overwrite': True
     },
 }
+ITEM_PIPELINES = {
+    'yatube_parsing.pipelines.MondayPipeline': 300,
+}
